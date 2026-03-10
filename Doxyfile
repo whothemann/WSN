@@ -1,0 +1,29 @@
+PROJECT_NAME           = "WSN Project"
+PROJECT_BRIEF          = "Wireless Sensor Network firmware (C)"
+
+INPUT                  = .
+RECURSIVE              = YES
+FILE_PATTERNS          = *.c *.h *.md
+EXCLUDE_PATTERNS       = */build/* */cmake-build-*/* */.pio/* */.vscode/* */vendor/* */third_party/* */deps/*
+
+OPTIMIZE_OUTPUT_FOR_C  = YES
+TYPEDEF_HIDES_STRUCT   = YES
+
+MARKDOWN_SUPPORT       = YES
+USE_MDFILE_AS_MAINPAGE = mainpage.md
+
+SOURCE_BROWSER         = YES
+REFERENCES_RELATION    = YES
+REFERENCED_BY_RELATION = YES
+FULL_PATH_NAMES        = NO
+STRIP_FROM_PATH        = .
+
+HAVE_DOT               = YES
+DOT_IMAGE_FORMAT       = svg
+INCLUDE_GRAPH          = YES
+INCLUDED_BY_GRAPH      = YES
+
+EXTRACT_ALL            = YES
+EXTRACT_STATIC         = YES
+HIDE_UNDOC_MEMBERS     = NO
+HIDE_UNDOC_CLASSES     = NO
